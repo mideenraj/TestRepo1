@@ -4,8 +4,8 @@ on: push
 
 jobs:
 	job-1:
-		name: Job numero uno
+		name: jobNumeroUno
 		runs-on: ubuntu-latest
 		steps:
 			- name: Checkout Code
-				uses: actions/checkout@v2
+			  uses: actions/checkout@v2
