@@ -1,15 +1,11 @@
-name: Testing Continuous Integration (CI)
+name: Testing-ci
 
 on: push
 
 jobs:
-  job-1:
-    name: Job #1
-    runs-on: ubuntu-latest
-    steps:
-      - name: Stuff
-  job-2:
-      name: Job #2
-      runs-on: ubuntu-latest
-      steps:
-        - name: Stuff
+	job-1:
+		name: Job numero uno
+		runs-on: ubuntu-latest
+		steps:
+			- name: Checkout Code
+				uses: actions/checkout@v2
