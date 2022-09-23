@@ -32,8 +32,10 @@ jobs:
       
     - name: Step 5 - Run test.py
       run: ./python test.py
+      
+    - name: Step 5.5 - Checkout Code
+      uses: actions/checkout@v2
         
     - name: Step 6 - Just an echo
-      uses: actions/checkout@v2
       run: echo "This is just an echo for testing purposes"
       
