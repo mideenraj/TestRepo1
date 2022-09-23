@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Step 1 - Checkout
+    - name: Step 1 - Checkout Code
       uses: actions/checkout@v2
-    - name: Step 2 - 
+    - name: Step 2 - Run the linter
       run: echo "This is an echoo"
     - name: Step 3 - 
       run: echo "This is another echooo"
