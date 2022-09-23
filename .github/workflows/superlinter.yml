@@ -30,7 +30,7 @@ jobs:
         flake8 . --count --max-complexity=10 --max-line-length=127 --statistics
       
     - name: Step 5 - Run test.py
-      run: test.py
+      run: python test.py
         
     - name: Step 6 - Just an echo
       run: echo "This is just an echo for testing purposes"
