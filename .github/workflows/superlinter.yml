@@ -1,7 +1,8 @@
 name: Testing-ci
 
 on:
-  push
+  push:
+    branches: [ B1 ]
 
 
 jobs:
@@ -10,7 +11,7 @@ jobs:
 
     steps:
     - name: Step 1 - Checkout Code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
       
     - name: Step 2 - Setup python 3.8
       uses: actions/setup-python@v2
