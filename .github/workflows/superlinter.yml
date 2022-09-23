@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - run: echo "This is another echoooo"
     - name: Step 1
       uses: actions/checkout@v2
     - name: Step 2
